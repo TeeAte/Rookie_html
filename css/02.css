@@ -1,0 +1,10 @@
+/* RGBA 颜色表示法 */
+/* span{color: rgb(64, 160, 161,0.9);font-size: larger;} */
+h1{color: rgb(19, 190, 190);}
+
+/*元素选择器 */
+publish_date{color:#A2A4Ab;font-size: larger;}
+/* 类选择器 */
+.cls{color: red;}
+/* id选择器,优先级最高 */
+#id1{color: blue;}

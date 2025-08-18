@@ -1,0 +1,33 @@
+<!--输入叹号回车可以有基本结构-->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OK，大TITLE</title>
+
+  <!-- 设置字体颜色，内部样式 ，一般放在head里面,几乎是全局的 -->
+
+
+<!--方式一:行内样式-->  <!-- style="color: black;font-size: large;"-->
+<!--方式二:内部样式-->  <!-- <style>.publish_date{color: gray; font-size:medium;} </style> -->
+<!-- 方式三: 引入css文件 --><link rel="stylesheet" href="css/02.css">
+</head>
+
+
+<body>
+
+  <!-- 这里是标题，有h1-h6 -->
+  <h1 id="title" >大标题</h1>
+
+<!-- a标签：
+ href属性是链接，可以点击跳转
+ target属性是打开方式:_blank是新窗口打开,_self是当前窗口打开
+  -->
+<a href="https://www.baidu.com" target="_blank"  style="color: rgb(17, 51, 163);font-size: large; text-decoration:underline;" >百度一下</a> 
+ <publish_date> 2025年8月18日</publish_date>
+ <publish_date class="cls">类选择器红色样式</publish_date>
+ <id id="id1">id选择器蓝色样式</id>
+</body>
+</html>
