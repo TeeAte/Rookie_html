@@ -1,21 +1,23 @@
 /* RGBA 颜色表示法 */
 /* span{color: rgb(64, 160, 161,0.9);font-size: larger;} */
-h1{color: rgb(19, 190, 190);}
+h1{color: rgb(19, 190, 190);font-family:'苹方-简 Medium';font-size: 35px;}
 
 /*元素选择器 */
 publish_date{color:#A2A4Ab;font-size: larger;}
-/* 类选择器 */
+/* 类选择器 */ 
 .cls{color: red;}
 /* id选择器,优先级最高 */
 #id1{color: blue;}
-
-p{font-size:large;line-height: 2;text-align: center;}
+p{font-size:large;line-height: 2;text-align: center;font-family:'华文中宋'}
 /* 段落首行缩进2格 */
 
 
 #container{ 
   width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 100px;
+  margin: 40px auto;
+  /* margin-bottom: 40px;
+  margin-top: 40px; */
+  background-color: #f9f9f9;
+  padding: 30px;
+  border: 10px solid #ddedf0;
 }
