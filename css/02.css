@@ -8,3 +8,14 @@ publish_date{color:#A2A4Ab;font-size: larger;}
 .cls{color: red;}
 /* id选择器,优先级最高 */
 #id1{color: blue;}
+
+p{font-size:large;line-height: 2;text-align: center;}
+/* 段落首行缩进2格 */
+
+
+#container{ 
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
