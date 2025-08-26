@@ -1,0 +1,97 @@
+body {
+margin: 0;
+}
+
+/* 顶栏样式 */
+.header {
+display: flex;  /* 弹性布局 */
+justify-content: space-between; /* 左右间对齐布局 */
+align-items: center;/*垂直居中布局 */
+background-color: #d6f2ff;
+padding: 20px 20px;
+margin: 0px auto; /* 垂直间距0px，左右自动（实现水平居中） */  
+width: 70%; /* 固定容器宽度（建议30%-70%，避免过宽/过窄） */
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* 加大加粗标题 */
+.header h1 {
+margin: 0;
+font-size: 20px;
+font-weight: bold;
+font-family: '苹方-简 Medium';
+color: rgb(66, 66, 66);
+}
+
+/* 文本链接样式 */
+.header a {
+text-decoration: none;
+color: #333;
+font-size: 16px;
+font-family: '苹方-简 Medium';}
+
+.search-form{
+margin: 0;padding: 0;
+}
+.search-form input[type="text"],.search-form select {
+margin-right: 2px;
+padding: 10px;
+border: 1.5px solid #ccc;
+border-radius: 20px;
+width: 150px;
+}
+.search-form button{
+padding: 5px 15px;
+margin-left: 10px;
+background-color: #007bff;
+color: white;
+border: none;
+border-radius:20px;
+cursor: pointer;
+}
+.search-form button.clear {
+background-color: #6c757d;
+}
+
+.btn-group button{         
+padding: 5px 8px;
+background-color: #007bff;
+color: white;
+border: none;
+border-radius:5px;
+cursor: pointer;}
+
+.formdiv {
+margin: 20px auto; /* 垂直间距20px，左右自动（实现水平居中） */
+padding: 20px; /* 减少内边距，避免区域过大（可选，按需求调整） */
+justify-content: center; /* 让内部表单在容器中水平居中 */
+display: flex; 
+align-items: center;
+width: 70%; /* 固定容器宽度（建议30%-70%，避免过宽/过窄） */
+}
+
+.table {
+min-width: 100%; 
+border-collapse: collapse;
+margin: 0 20px;
+}
+/* 设置表格单元格边框 */
+.table td, .table th { 
+border: 1.5px solid #d4d4d4; 
+padding: 8px; 
+text-align: center;
+}
+
+/* 设置头像图片样式 */
+.avatar { 
+width: 50px; 
+height: 50px; 
+object-fit: cover; 
+border-radius: 10%; 
+}
+
+.table tbody tr:hover{
+background-color:#d2f0f4;
+}
+
+p{color: white;line-height: 1.7;}
