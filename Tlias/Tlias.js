@@ -1,3 +1,5 @@
+import { printLog } from "./utils.js"
+
 //删除 按钮的js脚本如下，要求按下删除后，那一行直接消失
 document.querySelectorAll('.del').forEach(function(btn){
     btn.addEventListener('click',function(){
@@ -15,6 +17,6 @@ document.querySelectorAll('.del').forEach(function(btn){
 
 document.querySelector('.name').addEventListener('focus',
     function(){
-        console.log(">>>输入姓名中...")
+        printLog(">>>输入姓名中...")
     }
 )
