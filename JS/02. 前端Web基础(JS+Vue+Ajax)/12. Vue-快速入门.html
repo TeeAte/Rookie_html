@@ -8,16 +8,16 @@
 <body>
   
   <div id="app">
-    <h1>{{message}}</h1>
+    <h1>{{message}</h1>
     <h1>{{count}}</h1>
   </div>
   
 
   <script type="module">
-    import { createApp } from '../../vue.js';
+    import {createApp} from '../../vue.js';
 
     createApp({
-      data() {
+      data() {//准备数据,输入data选择第二个选项
         return {
           message: 'Hello Vue',
           count: 100
